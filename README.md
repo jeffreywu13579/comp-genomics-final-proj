@@ -4,7 +4,7 @@
 
 ### requirements.txt
 
-This file contains the list of packages required to run the code.
+This file contains the list of python packages required to run the code
 
 ### main.py
 
@@ -18,7 +18,7 @@ python main.py StudyName --max-genes --num-edges-drawn
 
 - *--max-genes* corresponds to the integer number of genes to be included in the analysis 
 
-- *--num-edges-drawn* corresponds to the integer number of edges to be drawn for the final plot for clarity. The strongest *--num-edges-drawn* edges are the ones that are drawn.
+- *--num-edges-drawn* corresponds to the integer number of edges to be drawn for the final plot for clarity. The strongest *--num-edges-drawn* edges are the ones that are drawn
 
 On running the code the results would be stored in a new folder as follows:
 ```
@@ -38,6 +38,7 @@ genes = [
     "AFF1", "PTPRO", "ELF3", "TCEA1", "ATF1", "CRLF2", "CTDNEP1", "MLH1"
 ]
 ```
+We have attached sample results for *StudyName=BRCA*, *--max-genes=20* and *--num-edges-drawn=30*.
 
 This code can be easily modified for other studies via minimal changes.
 
